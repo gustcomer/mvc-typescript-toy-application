@@ -1,0 +1,1 @@
+this toy application is based on the article "Understanding the MVC Pattern with Typescript: An In-depth Analysis" by Alessandro Traversi

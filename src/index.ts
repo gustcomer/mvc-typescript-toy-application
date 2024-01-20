@@ -1,5 +1,7 @@
-import Person from './Person'
+import TaskModel from './TaskModel'
 
-const p = new Person('John Doe')
+const task = new TaskModel(1, "This is task 1", false)
 
-console.log(p.toString());
+console.log(task.id);
+console.log(task.description);
+console.log(task.done);
