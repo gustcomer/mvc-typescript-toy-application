@@ -1,5 +1,6 @@
 export default class TaskModel{
-  constructor(readonly id: number, readonly description: string, readonly done: boolean) {
-
+  done: boolean
+  constructor(readonly id: number, readonly description: string, done: boolean) {
+    this.done = done
   }
 }

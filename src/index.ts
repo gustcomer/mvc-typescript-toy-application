@@ -1,7 +1,11 @@
-import TaskModel from './TaskModel'
+import TasksController from './TasksController'
 
-const task = new TaskModel(1, "This is task 1", false)
+const tc: TasksController = new TasksController([]);
 
-console.log(task.id);
-console.log(task.description);
-console.log(task.done);
+tc.addTask("This is task 1")
+tc.addTask("This is task 2")
+tc.addTask("This is task 3")
+tc.completeTask(2)
+
+
+console.log(tc);
